@@ -49,197 +49,28 @@ table {
 
 /*******************/
 
-
-
-/* Navbar styling*/
-ul{
-	background-color:rgb(77, 0, 153,0.7);
-	 text-align: center;
-	 height:100px;
- }
- 
- 
- li{
-	 float:left;
- }
- li, a{
-	 display:inline;
-	 text-decoration: none;
-	 color:white;
-	 text-align:center;
-	 padding:30px;
-	 font-size:35px;
-	 font-family: 'Ubuntu', sans-serif;
- }
- 
- 
-
- body {
-    text-align: center;
-	font-family: 'Ubuntu', sans-serif;
-}
- 
- .active{
-	 background-color:black;
- }
- 
- 
- header{
-	 margin-top:30px;
- }
-
-
-
- .pagetitle{
-text-align: center;
-margin-top: 25px;
-font-size: 85px;
-font-style: italic;
-color:black;
- }
-
-label{
-	font-size: 40px;
-}
-
-
-
- .container2{
-    padding-top:100px;
-	font-size: 50px;
+.portfolio-titleone{
 	text-align: center;
+	margin:40px;
+	font-size: 60px;
 }
-
-
-
-/* styles for my text input for my html form*/
-
-
-legend{
+.portfolio-titletwo{
 	text-align: center;
-    font-size:60px;
-    color: black;
-}
-
-
-input[type=text] {
-   
-    width:500px;
-    height:35px;
-    transition: 0.3s;
-    outline: none;
-    margin:auto;
-    display:block;
-
-  }
-
-  
-  form{
-      padding:50px;
-      margin:auto;
-    
-  }
-  /* when someone clicks on any of the input text areas, it transitions and the  solid tan border pops up*/
-  input[type=text]:focus {
-    border:3px solid rgb(53, 13, 68);
-  }
-
-  input[type=submit]{
-      padding:30px;
-      color: rgb(53, 13, 68);
-      margin: 10%;
-  }
-textarea{
-     width:90%;
-	height:350px;
-
-}
-
-
-
-
- .myform{
-    border-radius: 5px;
-    border: 2px solid white;
-    background-color: rgb(235, 235, 235,0,5);
-    padding-left: 80px;
-    width:50%;
-    margin:auto;
-	background-image: url("https://media.istockphoto.com/photos/purple-abstract-acrylic-background-picture-id859100948?k=6&m=859100948&s=612x612&w=0&h=D0iDathKCfhLrFwZh6RqupoyWMuvkVmToD_Zl9NiBY8=");
-
-	background-position: center;
-	background-repeat:no-repeat;
-	background-size: cover;
-	height:100%;
-	margin-bottom: 200px;
-	margin-top: 60px;
-
-
-  }
-
-
-
-
-
-
-@media (max-width: 800px) {
-    input[type="text"] {
-        width: 50%;
-    }
-    textarea{
-        width:50%;
-    }
-
-
-}
-
-
-
-
-/******* My Footer Styles******/
-
-.myfooter{
-	width:100%;
-	height:400px;
-	background-color: rgb(77, 0, 153,0.8);
-
-}
-
-
-.medialink{
-	height:200px;
-	width:200px;
-	margin-left:430px;
-	margin-top:30px;
-}
-
-.medialinktwo{
-	height:120px;
-	width:120px;
-	margin-right:300px;
-	margin-bottom:40px;
-
+	margin:40px;
 	
 }
 
-.footertitle{
-	text-align:center;
-	font-size:35px;
-	color:white;
-	font-family: 'Ubuntu', sans-serif;
+
+
+
+
+.page-footer{
+	background-color: rgb(230, 230, 230);
 }
 
 
-.copyright{
-	text-align:center;
-	margin-bottom:40px;
-	margin-top:40px;
-	color:white;
 
-}
 
-.updates{
-	text-align:center;
-	margin-top:40px;
-	color:white;
-}
+
+
+

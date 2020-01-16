@@ -49,147 +49,46 @@ table {
 
 /*******************/
 
+/***Navbar***/
+.navbar{
 
-
-
-/* Navbar styling*/
-
-ul{
-	background-color:rgba(77, 0, 153,0.8);;
-	 text-align: center;
-	 height:100px;
- }
- 
- 
- li{
-	 float:left;
- }
- li, a{
-	 display:inline;
-	 text-decoration: none;
-	 color:white;
-	 text-align:center;
-	 padding:30px;
-	 font-size:35px;
-	 font-family: 'Ubuntu', sans-serif;
- }
- 
- 
-
- 
- 
- .active{
-	 background-color:black;
- }
- 
- 
- header{
-	 margin-top:30px;
- }
-
-.heroimg{
-	background-image: url("https://media.istockphoto.com/photos/purple-abstract-acrylic-background-picture-id859100948?k=6&m=859100948&s=612x612&w=0&h=D0iDathKCfhLrFwZh6RqupoyWMuvkVmToD_Zl9NiBY8=");
-	background-position: center;
-	background-repeat:no-repeat;
-	background-size: cover;
-	height:850px;
-	color:rgba(255, 255, 255, 0.39);
-
-
-
-
+	margin-bottom:50px;
 }
 
+/***Hero image ***/
 
-
-.herotext{
-	margin-top:230px ;
-	position: absolute;
-	top:50%;
-	left:50%;
-	text-align:center;
-	transform: translate(-50%,-50%);
-	color:white;
-	font-family: 'Ubuntu', sans-serif;
-	text-shadow:1px 1px 0 #444;
-}
-
-
-.headername{
- font-size: 85px;
- margin-top:300px;
- margin-bottom: 100px;
- font-weight: bold;
-}
-
-
-.paraname{
-font-size: 45px;
-}
-
-
-.description{
+.bgimage {
+	margin-bottom:50px;
 	width:100%;
-	height:600px;
-}
-.aboutmetitle{
-	font-size: 55px;
-	font-family: 'Raleway', sans-serif;
-	margin-left:450px;
-}
-.aboutmeimg{
-	float: left;
-	width:450px;
-	height:540px;
-}
-
-.aboutmetext{
-	font-size: 35px;
-	font-family: 'Raleway', sans-serif;
-}
-
-.myfooter{
-	width:100%;
-	height:400px;
-	background-color: rgb(77, 0, 153,0.8);
-
-}
-
-
-.medialink{
-	height:70px;
-	width:70px;
-	margin-left:430px;
-	margin-top:30px;
-}
-
-.medialinktwo{
-	height:70px;
-	width:70px;
-	margin-right:300px;
-	margin-bottom:40px;
+	height:500px;
+	/* background: url('/Users/aaliyahmccray/Documents/MyPortfolio/img/Image from iOS (24).jpg'); */
+	background-repeat: no-repeat;
+	background-position:top;
+	/* background-size:cover; */
+	background-attachment: fixed;
+	background-image: url('/Users/aaliyahmccray/Documents/MyPortfolio/img/Image from iOS (24).jpg');
 
 	
-}
-
-.footertitle{
-	text-align:center;
-	font-size:35px;
+  }
+  /* .bgimage h5 {
 	color:white;
-	font-family: 'Ubuntu', sans-serif;
+	text-shadow:2px 2px #333;
+  } */
+
+
+  .herotitle{
+	  font-size: 50px;
+	  text-align: center;
+
+  }
+
+ 
+
+  .page-footer{
+	background-color: rgb(230, 230, 230);
 }
 
 
-.copyright{
-	text-align:center;
-	margin-bottom:40px;
-	margin-top:40px;
-	color:white;
 
-}
 
-.updates{
-	text-align:center;
-	margin-top:40px;
-	color:white;
-}
+  

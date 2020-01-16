@@ -3,74 +3,146 @@
 
 <head>
 
-
-    <title>MyPortfolio(Portfolio)</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./styles/portfolio.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>MyPortfolio(Portfolio)</title>
 </head>
 
 <body>
-    <header>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a class="active" href="portfolio.html">Portfolio</a>
-            </li>
-            <li><a href="contact.html">Contact</a></li>
 
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    </header>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Me</a>
+                </li>
+
+
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <!-- Heading one title -->
     <h2 class="portfolio-title">RoadToHire Coding Academy Projects</h2>
-    <div class="row">
-        <div class="column">
-            <div class="card">
-                <img class="javascript-logo"
-                    src="https://i1.wp.com/www.nuimedia.com/wp-content/uploads/2017/01/javascript-logo.png?ssl=1">
-                <h3>JavaScript Challenges</h3>
-                <p>Javascript Week1-Veryhard-Challenge(JS Calculator)</p>
-                <a class="githublink"href="https://github.com/AaliyahM777/JS-Calculator">Github</a>
-            </div>
-        </div>
+    <!-- Portfolio cards -->
+    <div class="container">
+        <div class="row">
 
-        <div class="column">
-            <div class="card">
-                <img class="node-logo"src="https://software.intel.com/sites/default/files/managed/fa/a0/Runtime-logo-Node.jpg">
-                <h3>Node.JS Weekly challenges</h3>
-                <p>Node.JS thats contains medium and hard challenges </p>
-                <a class="githublink"href="https://github.com/AaliyahM777/Node.JS-Medium-Challenge">Github(Node.js Medium)</a>
-                <a class="githublink"href="https://github.com/AaliyahM777/Node.JS-Hard-Challenge">Github(Node.js Hard)</a>
-            </div>
-        </div>
-        <div class="column">
-            <div class="card">
-                <img class="react-logo"src="https://cdn.worldvectorlogo.com/logos/react.svg">
-                <h3>React Challenges(Week1)</h3>
-                <p>React week one projects that consists of medium easy and hard challenges.</p>
-                <a class="githublink"href="https://github.com/AaliyahM777/React-Week1-Easy-Challenge/blob/master/React2challenges">Github(Easy Challenge)</a>
-                <a class="githublink"href="https://github.com/AaliyahM777/React-Week1-Medium-Challenge">Github(Medium Challenge</a>
-                <a class="githublink"href="https://github.com/AaliyahM777/React-Week1-Hard-Challenge">Github(Hard Challenge)</a>
-            </div>
-        </div>
+            <div class="card-columns">
+                <div class="card" style="max-width:319px;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png"
+                        class="card-img-top" alt="html5 card image" />
+                    <div class="card-block text-center">
 
-        <div class="column">
-            <div class="card">
-                    <img class="react-logo"src="https://cdn.worldvectorlogo.com/logos/react.svg">
-                <h3>React Guessing Game</h3>
-                <p>Github</p>
-                <a class="githublink"href="https://github.com/AaliyahM777/ReactGuessingGame">Github(Guessing Game)</a>
-               
-            </div>
-        </div>
-        <div class="column">
-                <div class="card">
-                        <img class="react-logo"src="https://cdn.worldvectorlogo.com/logos/react.svg">
-                    <h3>React Comment Section</h3>
-                    <p>A guessing game made with react</p>
-                    <a class="githublink"href="https://github.com/AaliyahM777/React-Week3-Comment_Section">Github(Comment Section)</a>
+                        <h5 class="card-title">Road to hire Gateway website</h5>
+                        <p class="card-text">My Gateway Project on Ghana made in codepen.</p>
+                        <a href="https://codepen.io/liyah77/project/editor/XWoRpx" class="btn btn-success">To Web</a>
+                    </div>
+
+                </div>
+
+                <div class="card" style="max-width:319px;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png"
+                        class="card-img-top" alt="Node.js card image">
+                    <div class="card-block text-center">
+
+                        <h5 class="card-title">Node Medium Challenge</h5>
+                        <p class="card-text">My Node and Express Medium Challenge made in VScode.</p>
+                        <a href="https://github.com/AaliyahM777/Node.JS-Medium-Challenge" class="btn btn-success">To
+                            Github</a>
+                    </div>
+
+                </div>
+                <div class="card" style="max-width:319px;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
+                        class="card-img-top" alt="html5 card image">
+                    <div class="card-block text-center">
+
+                        <h5 class="card-title">Road to hire Gateway website/CSS coding challenge</h5>
+                        <p class="card-text">My Gateway Project on Ghana made in codepen and medium css challenge made
+                            in VScode.</p>
+                        <a href="https://codepen.io/liyah77/project/editor/XWoRpx" class="btn btn-success">To Web</a>
+                        <a href="https://github.com/AaliyahM777/CSS-week2-medium-challenge/blob/master/medium2.html"
+                            class="btn btn-success">To Github</a>
+                        <a href="file:///Users/aaliyahmccray/Documents/submit-weeklychallenges-r2h-2019-AaliyahM777/weektwo/medium2.html"
+                            class="btn btn-success"> To Video Game Grid</a>
+                    </div>
+
+                </div>
+                <div class="card" style="max-width:319px;">
+                    <img src="https://miro.medium.com/max/384/1*ieVWcSsJmeBbZFo6a_dL5g.png" class="card-img-top"
+                        alt="html5 card image">
+                    <div class="card-block text-center">
+
+                        <h5 class="card-title">TDD Challenges</h5>
+                        <p class="card-text">My test driven development challenges made in VScode.</p>
+                        <a href="https://github.com/AaliyahM777/-Test-driven-development-challenges/tree/master/easy"
+                            class="btn btn-success">To Github</a>
+                    </div>
+                </div>
+                <div class="card" style="max-width:319px;">
+                    <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+                        class="card-img-top" alt="html5 card image">
+                    <div class="card-block text-center">
+
+                        <h5 class="card-title">React Guessing Game</h5>
+                        <p class="card-text">My Guessing game made with an react app.</p>
+                        <a href="https://github.com/AaliyahM777/ReactGuessingGame/tree/master/mygame1/src"
+                            class="btn btn-success">To Github</a>
+                    </div>
+                </div>
+
+                <div class="card" style="max-width:319px;">
+                    <img src="https://logonoid.com/images/mysql-logo.png" class="card-img-top" alt="html5 card image">
+                    <div class="card-block text-center">
+
+                        <h5 class="card-title">MySQL challenges</h5>
+                        <p class="card-text">MySQL challenges created in VScode.</p>
+                        <a href="https://github.com/AaliyahM777/MySQL-challenges" class="btn btn-success">To Github</a>
+                    </div>
+                </div>
+
+
+                <div class="card" style="max-width:319px;">
+                    <img src="https://responsivedesign.is/wp-content/uploads/2018/08/PWA-Progressive-Web-App-Logo.png"
+                        class="card-img-top" alt="html5 card image">
+                    <div class="card-block text-center">
+
+                        <h5 class="card-title">PenPowers website</h5>
+                        <p class="card-text">My Ecommerce Website Project on pens.</p>
+                        <a href="https://penpowers.herokuapp.com/" class="btn btn-success">To Web</a>
+                    </div>
                 </div>
             </div>
+        </div>
+    </div>
 
-          
+
+
+
+
     </div>
 
 
@@ -79,27 +151,120 @@
 
 
 
-    <footer>
+    <!-- Footer -->
+    <footer class="page-footer font-small stylish-color-dark pt-4">
 
-        <div class="myfooter">
-            <p class="footertitle">Social Media Links</p>
-            <a href="https://www.linkedin.com/in/aaliyah-mccray-348064166/">
-                <img class="medialink"
-                    src="https://cdn2.iconfinder.com/data/icons/popular-social-media-flat/48/Popular_Social_Media-22-512.png">
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
 
-            </a>
-            <a href="https://github.com/AaliyahM777">
-                <img class="medialinktwo"
-                    src="https://cdn1.iconfinder.com/data/icons/social-media-vol-1-1/24/_github-512.png">
+            <!-- Grid row -->
+            <div class="row">
 
+                <!-- Grid column -->
+                <div class="col-md-4 mx-auto">
 
-            </a>
-            <p class="copyright"> &#169;Copyright 2019</p>
-            <p class="updates"> Last Updated:10/08/19</p>
+                    <!-- Content -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contacts</h5>
+                    <p>Here you can click on any of the contact links.
+                        </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Link 1</a>
+                        </li>
+                        
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Link 1</a>
+                        </li>
+                       
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Link 1</a>
+                        </li>
+                       
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
         </div>
+        <!-- Footer Links -->
 
+        <hr>
+
+        <!-- Call to action -->
+        <ul class="list-unstyled list-inline text-center py-2">
+            <li class="list-inline-item">
+                <h5 class="mb-1">For more information</h5>
+            </li>
+            <li class="list-inline-item">
+                <a href="contact.html" class="btn btn-success btn-rounded">Contact Me!</a>
+            </li>
+        </ul>
+        <!-- Call to action -->
+
+        <hr>
+
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            MyPortfolio</a>
+        </div>
+        <!-- Copyright -->
 
     </footer>
+    <!-- Footer -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
