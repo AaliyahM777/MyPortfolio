@@ -49,6 +49,13 @@ table {
 
 /*******************/
 
+body{
+	background-image:url('https://cdn.dribbble.com/users/673549/screenshots/3159371/videogamecontroller_background.jpg');
+
+
+}
+
+
 .portfolio-title{
 	text-align: center;
 	margin:40px;
