@@ -60,11 +60,12 @@ body{
 	text-align: center;
 	margin:40px;
 	font-size: 60px;
+	color: rgb(230, 230, 230);
 }
 .portfolio-titletwo{
 	text-align: center;
 	margin:40px;
-	
+    color: rgb(230, 230, 230);
 }
 
 
@@ -73,6 +74,17 @@ body{
 
 }
 
+.bottomcontacttitle{
+	text-align: center;
+	color: rgb(230, 230, 230);
+	font-size: 100px;
+}
+
+.bottomcontacttitle2{
+	text-align: center;
+	color: rgb(230, 230, 230);
+	font-size: 70px;
+}
 
 
 .page-footer{
